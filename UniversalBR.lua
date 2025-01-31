@@ -31,7 +31,7 @@ local function checkForErrors()
     if not success then
         print("Erro detectado: " .. tostring(errorMessage))
         
-        local messageBR = "🇧🇷: O seu executor não é compatível com nosso script, por favor instale um executor compatível no nosso site de executores: https://beacons.ai/ethus.oi"
+        local messageBR = "Falha na execução do painel principal, executando painel segundario..."
         
         showBubbleChat(messageBR, "https://beacons.ai/ethus.oi")
     else
