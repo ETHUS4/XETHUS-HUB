@@ -31,7 +31,7 @@ local function checkForErrors()
     if not success then
         print("Erro detectado: " .. tostring(errorMessage))
         
-        local messageBR = "Falha na execução do painel principal, executando painel segundario..."
+        local messageBR = "Falha na execução do painel principal, executando painel segundario ..."
         
         showBubbleChat(messageBR, "https://beacons.ai/ethus.oi")
     else
